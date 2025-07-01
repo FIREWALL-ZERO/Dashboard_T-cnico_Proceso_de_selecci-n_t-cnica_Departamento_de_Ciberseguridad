@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FIREWALL ZERO – Dashboard Técnico</title>
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      padding: 2rem;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #58a6ff;
+      margin-bottom: 0.5em;
+    }
+    h1 {
+      font-size: 2.4rem;
+      border-bottom: 2px solid #21262d;
+      padding-bottom: 0.3em;
+    }
+    .phase-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .phase {
+      background-color: #161b22;
+      border: 1px solid #30363d;
+      border-left: 6px solid #58a6ff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 8px #0d1117;
+      transition: all 0.3s ease;
+    }
+    .phase:hover {
+      transform: scale(1.02);
+      border-left: 6px solid #f78166;
+    }
+    .phase h3 {
+      color: #f0f6fc;
+      margin-top: 0;
+      margin-bottom: 0.5em;
+      font-size: 1.3rem;
+    }
+    .phase p {
+      margin: 0.4em 0;
+      color: #8b949e;
+    }
+    .btn-link {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 0.5em 1em;
+      background-color: #238636;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+    .btn-link:hover {
+      background-color: #2ea043;
+    }
+    .meta {
+      text-align: center;
+      margin-top: 2rem;
+      color: #6e7681;
+      font-size: 0.9rem;
+    }
+    .total-box {
+      text-align: center;
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #21262d;
+      border: 1px solid #30363d;
+      border-left: 6px solid #ffa657;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      color: #f0f6fc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>FIREWALL ZERO – Dashboard Técnico</h1>
+  <h2>Proceso de selección técnica – Departamento de Ciberseguridad</h2>
+
+  <div class="phase-container">
+
+    <div class="phase">
+      <h3>FASE 1 – Configuración del Servidor</h3>
+      <p><strong>Días:</strong> 5</p>
+      <p><strong>Horas:</strong> 25h</p>
+      <p><strong>Objetivo:</strong> Fortificar un servidor Linux con aplicaciones vulnerables y medidas de seguridad básicas.</p>
+      <p><strong>Entregable:</strong> Informe técnico + Servidor desplegado</p>
+      <a class="btn-link" href="informe-fase1.html" target="_blank">Ver Informe Fase 1</a>
+    </div>
+
+    <div class="phase">
+      <h3>FASE 2 – Auditoría Técnica Cruzada</h3>
+      <p><strong>Días:</strong> 4</p>
+      <p><strong>Horas:</strong> 20h</p>
+      <p><strong>Objetivo:</strong> Realizar auditoría pasiva y activa limitada sobre un servidor remoto.</p>
+      <p><strong>Entregable:</strong> Informe de auditoría cruzada</p>
+      <a class="btn-link" href="https://vegasgil.github.io/fase2/" target="_blank">Ver Informe Fase 2</a>
+    </div>
+
+    <div class="phase">
+      <h3>FASE 3 – Simulación de Ataques Controlados</h3>
+      <p><strong>Días:</strong> 4</p>
+      <p><strong>Horas:</strong> 20h</p>
+      <p><strong>Objetivo:</strong> Realizar pruebas de intrusión ética sobre el sistema auditado.</p>
+      <p><strong>Entregable:</strong> Informe ofensivo + Evidencias</p>
+      <a class="btn-link" href="informe-fase3.html" target="_blank">Ver Informe Fase 3</a>
+    </div>
+
+    <div class="phase">
+      <h3>FASE 4 – Defensa, Cierre y Análisis Forense</h3>
+      <p><strong>Días:</strong> 3</p>
+      <p><strong>Horas:</strong> 15h</p>
+      <p><strong>Objetivo:</strong> Analizar ataques recibidos, justificar la defensa y elaborar informe forense.</p>
+      <p><strong>Entregable:</strong> Informe forense + Exposición final</p>
+      <a class="btn-link" href="informe-fase4.html" target="_blank">Ver Informe Fase 4</a>
+    </div>
+
+  </div>
+
+  <div class="total-box">
+    <strong>TOTAL:</strong> 16 días · 80 horas · 4 Informes Técnicos
+    <br><strong>Fecha límite de entrega:</strong> 11/07/2025 – 23:59h
+  </div>
+
+  <div class="meta">
+    © 2025 · Socistar Caribe S.L. – Proyecto FIREWALL ZERO
+  </div>
+
+</body>
+</html>
